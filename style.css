@@ -1,0 +1,55 @@
+
+@font-face{
+	font-family: digital;
+	src: url(fonts/digital.ttf);
+}
+
+body{
+	font-family: digital;
+    color: #17D4FE;
+    background-color: black;
+}
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.clock{
+	display: inline-block;
+}
+
+.number{
+	font-size: 300px;
+	text-align: center;
+	width: 190px;
+	padding: 10px;
+	margin: 8px;
+}
+
+#colon{
+	padding-left: 30px;
+}
+
+#seconds, #period, .row-three {
+	font-size: 50px;
+}
+
+.row_one{
+	text-align: right;
+}
+
+.column-one{
+	width: 65%;
+	float: left;
+}
+
+#dayname{
+	float: right;
+}
+
+.row-one{
+	text-align: right;
+}
